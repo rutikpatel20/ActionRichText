@@ -25,6 +25,9 @@
         <%= f.label :summary, "Summary :" %>
         <%= f.text_area :summary, rows: 8, placeholder: "Enter Book's Summary Here", class:"mb-2 form-control" %>
         <br>
+        <%= f.label :description, "Summary :" %>
+        <%= f.rich_text_area :description, rows: 8, placeholder: "Enter Book's Description Here", class:"mb-2 form-control" %>
+        <br>
         <%= f.label :price, "Price :" %>
         <%= f.number_field :price, placeholder: "Enter Book Price Here", class:"mb-2 form-control" %>
         <br>

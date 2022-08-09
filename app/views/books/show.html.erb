@@ -19,6 +19,9 @@
           <p class="card-text"> <strong>Published Date : </strong> <%= @book.published_date %> </p>
         </div>
       </div>
+      <div>
+        <p class="card-text"> <strong>Description : </strong> <%= @book.description %> </p>
+      </div>
       <div class="d-flex">
         <%= button_to "Edit Book" , edit_book_path, method: :get ,class:"btn-success border-0 rounded-pill shadow p-2 m-2" %>
         <%= button_to "Delete Book", book_path, method: :delete ,class:"btn-danger border-0 rounded-pill shadow p-2 m-2" %>
